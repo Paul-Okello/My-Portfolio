@@ -10,7 +10,7 @@ const AppWrap = (Component, idName, classNames) =>
           <Component />
 
           <div className='copyright'>
-            <p className='p-text'>@{new Date().toISOString()} PAUL</p>
+            <p className='p-text'>@{new Date().getUTCFullYear()} PAUL</p>
             <p className='p-text'>All rights reserved</p>
           </div>
         </div>
